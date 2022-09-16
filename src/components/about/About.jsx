@@ -18,7 +18,7 @@ const About = () => {
         </div>
       </div>
       <div className="about__content">
-        <div className="about__cards">
+        {/* <div className="about__cards">
 
           <article className="about__card">
             <RiEmotionHappyFill className='about1__icon'/>
@@ -37,7 +37,7 @@ const About = () => {
             <h5>Projects</h5>
             <small>Two final Projects</small>
           </article>
-        </div>
+        </div> */}
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, a veniam architecto fuga quas amet sint sequi quae commodi eveniet! Consectetur voluptatum eos magnam provident sed facilis fugit amet quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perferendis labore totam expedita voluptatum obcaecati autem distinctio odit, aliquam magnam doloremque earum voluptatibus sunt vero, quod alias atque natus quibusdam!</p>
 
         <a href="#contact" className='btn btn-primary'> Let's connect!</a>
