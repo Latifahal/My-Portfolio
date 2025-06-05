@@ -18,12 +18,12 @@
     --color-white: #fff;
     --color-light: rgba(225, 255, 255, 0.6); */
 
-    --color-bg: #B983FF;
-    --color-bg-variant: #94B3FD;
-    --color-primary: #99FEFF;
-    --color-primary-variant: #94DAFF;
-    --color-white: #590979;
-    --color-light: rgb(26, 66, 66);
+    --color-bg:#F8F9FA;
+    --color-bg-variant: #E9ECEF;
+    --color-primary: #212529;
+    --color-primary-variant: #ADB5BD;
+    --color-white: #FF6B6B;
+    --color-light: #6C757D;
 
 
     --transition: all 400ms ease;
@@ -44,7 +44,13 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     /* background: radial-gradient(circle, rgba(148,66,254,1) 52%, rgba(185,131,255,1) 88%); */
-    background: radial-gradient(circle, rgba(23, 3, 49, 0.973) 52%, rgba(185,131,255,1) 88%);
+    /* background: radial-gradient(circle, rgba(23, 3, 49, 0.973) 52%, rgba(185,131,255,1) 88%); */
+    background: radial-gradient(
+  circle,
+  rgba(248, 249, 250, 1) 35%,     /* Light Gray */
+  rgba(173, 181, 189, 0.9) 75%,   /* Cool Gray */
+  rgba(255, 107, 107, 0.05) 100%  /* Faint Coral Red tint */
+);
     color: var(--color-white);
     line-height: 1.7;
     background-size:cover;

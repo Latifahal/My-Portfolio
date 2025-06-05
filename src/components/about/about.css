@@ -4,14 +4,18 @@
   gap: 15%
 }
 
+/* #about_Me_Title {
+  padding-top: 25px;
+} */
+
 .about__me {
-  width: 100%;
+ 
   aspect-ratio: 1/1;
   border-radius: 0.2rem;
   background: linear-gradient(
     45deg,
     transparent,
-    rgb(255, 255, 255),
+  rgba(63, 31, 9, 0.153),
     transparent
   );
   display: inline-block;
@@ -30,22 +34,22 @@
   transform: rotate(360deg);
 }
 
-.about__cards {
+/* .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-}
+} */
 
-.about__card {
+/* .about__card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
-}
+} */
 
-.about__card:hover {
+/* .about__card:hover {
   font-size: 0.95rem;
 
 }
@@ -53,11 +57,16 @@
 .about__card small {
   font-size: 0.7rem;
   
-}
+} */
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: white;
+  color: var(--color-primary);
+  font-weight: bolder;
+}
+#connectP {
+  color: var(--color-white);
+  font-weight: bolder;
 }
 
 /* ==================== MEDIA QUERIES (MEDIUM)=============*/

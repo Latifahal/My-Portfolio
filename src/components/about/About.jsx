@@ -1,48 +1,34 @@
-import React from 'react'
 import './about.css'
-import ME from '../../assets/meCar.jpg'
-import {RiEmotionHappyFill} from 'react-icons/ri'
-import {FaAward} from 'react-icons/fa'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import ME from '../../assets/portfolioImg.jpg'
+
 
 const About = () => {
   return (
     <section id='about'>
-    <h2>About Me</h2>
 
-    <div className="container about__container">
-      <div className="polaroid about__me">
-        <div className="about__me-img">
-          {/*eslint-disable-next-line */}
-        <img src={ME} alt="About Image" />
+      <h2 id='about_Me_Title'>About Me</h2>
+
+      <div className="container about__container">
+        <div className="polaroid about__me">
+          <div className="about__me-img">
+            <img src={ME} alt="About Image" />
+          </div>
+        </div>
+
+        <div className="about__content">
+          <p>
+            <p>Hey, I’m Livia!</p>  
+            when I’m not diving into code, you’ll probably find me cooking up something fresh in the kitchen, nothing beats a good meal made from scratch. I'm from the Middle East. I play the ukulele, a bit of guitar, and for fun I tap out beats on the drums sometimes.
+            I’m also big on adventure, whether it’s hiking in nature, exploring new cities, or just getting lost on purpose to see what I find.
+          </p>
+
+          <div>
+            <p id='connectP'>Wanna know more about me? Click the button below and let’s connect</p>
+            <a href="#contact" className='btn btn-primary'> Let's connect!</a>
+          </div>
+
         </div>
       </div>
-      <div className="about__content">
-        {/* <div className="about__cards">
-
-          <article className="about__card">
-            <RiEmotionHappyFill className='about1__icon'/>
-            <h5>Hobbies</h5>
-            <small>Check my Hobbies</small>
-          </article>
-
-          <article className="about__card">
-            <FaAward className='about1__icon'/>
-            <h5>Experience</h5>
-            <small>Over 1 year</small>
-          </article>
-
-          <article className="about__card">
-            <VscFolderLibrary className='about1__icon'/>
-            <h5>Projects</h5>
-            <small>Two final Projects</small>
-          </article>
-        </div> */}
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, a veniam architecto fuga quas amet sint sequi quae commodi eveniet! Consectetur voluptatum eos magnam provident sed facilis fugit amet quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perferendis labore totam expedita voluptatum obcaecati autem distinctio odit, aliquam magnam doloremque earum voluptatibus sunt vero, quod alias atque natus quibusdam!</p>
-
-        <a href="#contact" className='btn btn-primary'> Let's connect!</a>
-      </div>
-    </div>
     </section>
   )
 }
